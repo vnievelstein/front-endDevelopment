@@ -1,0 +1,31 @@
+body {
+    background-color:rgb(15, 15, 70);
+    color: whitesmoke;
+}
+.lblue-border{
+    border: 6px dotted lightskyblue;  
+
+}
+#green-background {
+    background-color: green;
+}
+.pink-link{
+    color:thistle;
+}
+h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:larger;
+    font-style: italic;
+    color:rgb(176, 219, 215)
+}
+h1{
+    color:coral;
+}
+.special-border{
+    border: 30px ridge cornflowerblue;
+    border-radius:15% ;
+}
+.fancy-font{
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: x-large;
+}
