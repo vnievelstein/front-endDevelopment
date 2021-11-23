@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- hier zet je de code in de head tags -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type = "text/css" href="styles.css">
+    <title> De achtste opdracht HTML </title>
+</head>
+
+<body>
+    <main>
+    
+        <nav class="lblue-border">
+            <ul>
+                <li class="navigation-li">
+                    <a href="index.html" class="pink-link navigation-a">Home</a>
+                </li>
+                <li class="navigation-li">
+                    <a href="about.html" class="pink-link navigation-a">About</a>
+                </li>
+                <li class="navigation-li">
+                    <a href="contact.html" class = "pink-link navigation-a"> Contact</a>  
+                </li>
+                <li class="navigation-li">
+                    <a href="recept.html" class = "pink-link navigation-a"> Recept</a>  
+                </li>
+                <li class="navigation-li">
+                    <a href="blog.html" class = "pink-link navigation-a"> Blog</a>  
+                </li> 
+            </ul>
+        </nav>
+        <header>
+            <h1>
+                Dit is de recept pagina
+            </h1>
+        </header>
+            <p> <h4>Hier kun je jouw recept uploaden </h4>
+                <hr />
+                <form name="recept" method="POST" data-netlify="true">
+                    <p>
+                      <label>Je naam: <input type="text" name="naam" /></label>   
+                    </p>
+                    <p>
+                      <label>Je e-mail: <input type="email" name="e-mail" /></label>
+                    </p>
+                    <p>
+                        <label> Je telefoonnummer: <input type="tel" name="telefoonnummer" /> </label>
+                    </p>
+                    <p>
+                        <label> Je leeftijd: <input type="number" name="leeftijd" /></label>
+                    </p>
+                    <p>
+                        <label> Je geboortedatum: <input type="date" name="geboortedatum" /></label>
+                    </p>
+                    <p>
+                        <label> Vrouw: <input type="radio" name="geslacht" value="Vrouw" /></label>
+                        <label> Man: <input type="radio" name="geslacht" value="Man" /></label>
+                        <label> Anders: <input type="radio" name="geslacht" value="Anders" /></label>
+                    </p>
+                    <p>
+                        <label> Je favoriete keuken: </label>
+                            <input type="checkbox" name="keuken" id="Frans" value="Frans" />
+                            <label for="Frans">Frans</label>
+                            <input type="checkbox" name="keuken" id="Italiaans" value="Italiaans" />
+                            <label for="Frans">Italiaans</label>
+                            <input type="checkbox" name="keuken" id="Spaans" value="Spaans" />
+                            <label for="Frans">Spaans</label>
+                            <input type="checkbox" name="keuken" id="Arabisch" value="Arabisch" />
+                            <label for="Frans">Arabisch</label>
+                    </p>
+                    <p>
+                        <label> Je favoriete schortkleur: <input type="color" name="schortkleur" /></label>
+                    </p>
+                    <p>
+                        <label> Je biografie: <textarea name="biografie" cols="30" rows="10"> </textarea></label>
+                    </p>
+                    <p>
+                        <label> Upload je favoriete recept: <input type="file" name="recept" /></label>
+                    </p>
+                    <p>
+                        <label> Link naar je recepten website: <input type="url" name="website" /></label>
+                    </p>
+                    <p>
+                        <button type="reset" name="resetJeInvoer">Reset je invoer</button>
+                      </p>
+                    <p>
+                      <button type="submit" name="verzenden">Verzenden</button>
+                    </p>
+
+                  </form>
+            </p>
+        </main>
+        </body>
+        </html>
