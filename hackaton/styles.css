@@ -96,8 +96,7 @@ nav{
     background-color: #D09967;
 }
 .navigation-li{
-    display: inline;
-    
+    display: inline;   
 }
 /* Home */
 .container-index{
@@ -133,11 +132,6 @@ nav{
     max-width: 90px;
     
 }
-/* .img-vintage2{
-    justify-content: right;
-    max-height:100px;
-    min-width: 100px;
-} */
 .figure-vintage{
     margin: 10px;
 }
@@ -145,8 +139,6 @@ nav{
     text-align: center;
     color:#663300;
 }
-
-
 /* Media Queries */
 @media (min-width: 1024px){
     .parent-grid{
